@@ -1,0 +1,30 @@
+body {
+	background-color:#D6EBFF;
+	}
+h1, h2, h3, h4, h5, h6 {
+	color:#E68A00;
+	text-align:center;
+	}
+p {
+	font-family:"Trebuchet MS";
+	font-size:14px;
+	}
+
+img.rick {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	height:200px;
+	width:250px;
+	}
+
+a {
+	font-family:"Trebuchet MS";
+}
+
+#ricklist {
+	font-family:"Trebuchet MS";
+	color:#0033CC;
+}
+
+
