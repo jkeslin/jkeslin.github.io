@@ -14,7 +14,7 @@ body {
 
 #nav {
 	background-image:url('../images/wavegrid.png');
-	padding: 10px;
+	padding: 5px;
 	margin: 10px;
 	text-align: center;}
 
@@ -71,15 +71,17 @@ figure, figcaption {
 
 a.nav {
 	text-decoration: none;
-	color: #666;
+	color: #000;
 	font-weight:bold;
-	display:block;
+	display:inline-block;
+	margin-left:1px;
 	padding: 10px;
 	background-color:#99C2FF;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #E7E7E7;
-	width: 207px;}
+	opacity: 0.6;
+	width: 209px;}
 
 a:hover {
 	background-color: #CAE6AF;}
