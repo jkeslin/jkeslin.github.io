@@ -2,13 +2,15 @@ body {
 	display:block;
 	width: 960px;
 	margin: 0 auto;
+	margin-top: 10px;
 	border-style:solid;
-	border-width:5px;
+	border-color: #8F8F8F;
+	border-width:4px;
 	}
 	
 #content {
 	overflow: scroll;
-	height: 500px}
+	height: 400px;}
 
 h1.title {
 	text-align:right;
@@ -31,17 +33,21 @@ li.navtext {
 	text-align: center;}
 
 #nav, #footer {
-	background-color: #efefef;
+	background-color: #F2F2F2;
 	padding: 10px;
 	margin: 10px;
 	text-align: center;}
 
 #feature {
-	background-color: #efefef;
+	background-color: #F2F2F2;
 	padding: 10px;
-	margin: 10px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	margin-right:10px;
+	margin-left:10px;
 	width: 920px;
 	float: left;
+	min-height:380px;
 	overflow:scroll;}
 
 figure, figcaption {
@@ -57,26 +63,31 @@ figure, figcaption {
 	margin-left:auto;
 	margin-right:auto;}
 
-a {
+a.nav {
 	text-decoration: none;
 	color: #666;
 	font-weight:bold;
 	display:block;
 	padding: 10px;
 	background-color:#99C2FF;
-	border: 1px solid #efefef;
+	border: 1px solid #F2F2F2;
 	width: 207px;}
 
+a:hover {
+	background-color: #CAE6AF;}
+
 a.footer {
-	clear:both;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	background-color:#F2F2F2;
 	font-family: "Droid Sans", sans-serif;
 	text-decoration: none;
 	color: #495654;
 	font-weight:bold;
-	}
+	font-size:12px;}
 
-a:hover {
-	background-color: #CAE6AF;}
+
 
 h1 {
 	font-family: "Droid Sans", sans-serif;
