@@ -12,6 +12,30 @@ body {
 	overflow: scroll;
 	height: 400px;}
 
+#nav {
+	background-image:url('../images/wavegrid.png');
+	padding: 10px;
+	margin: 10px;
+	text-align: center;}
+
+#feature {
+	background-image:url('../images/wavegrid.png');
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	margin-right:10px;
+	margin-left:10px;
+	width: 920px;
+	float: left;
+	min-height:380px;
+	overflow:scroll;}
+
+#footer {
+	background-image:url('../images/wavegrid.png');
+	padding: 10px;
+	margin: 10px;
+	text-align: center;}
+
 h1.title {
 	text-align:right;
 	letter-spacing:12px;}
@@ -32,31 +56,13 @@ li.navtext {
 	float:left;
 	text-align: center;}
 
-#nav, #footer {
-	background-color: #F2F2F2;
-	padding: 10px;
-	margin: 10px;
-	text-align: center;}
-
-#feature {
-	background-color: #F2F2F2;
-	padding: 10px;
-	margin-top: 0px;
-	margin-bottom:0px;
-	margin-right:10px;
-	margin-left:10px;
-	width: 920px;
-	float: left;
-	min-height:380px;
-	overflow:scroll;}
-
 figure, figcaption {
 	display:block;
 	text-align:center;
 	font-size:10px;
 	font-family:"Droid Sans", sans-serif;}
 
-#apple {
+#pic {
 	display:block;
 	width:180px;
 	height:200px;
@@ -70,33 +76,36 @@ a.nav {
 	display:block;
 	padding: 10px;
 	background-color:#99C2FF;
-	border: 1px solid #F2F2F2;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E7E7E7;
 	width: 207px;}
 
 a:hover {
 	background-color: #CAE6AF;}
 
+a:hover.footer {
+	background-color:transparent;}
+
 a.footer {
 	margin-left:auto;
 	margin-right:auto;
 	text-align:center;
-	background-color:#F2F2F2;
 	font-family: "Droid Sans", sans-serif;
 	text-decoration: none;
 	color: #495654;
 	font-weight:bold;
 	font-size:12px;}
 
-
-
 h1 {
 	font-family: "Droid Sans", sans-serif;
 	color: #495654;} 
 
 p {
-	font-family: "Droid Sans", sans-serif;}
+	font-family: "Droid Sans", sans-serif;
+	font-size:14px;}
 
 span {
-	color:blue;
+	color:#256EB8;
 	font-weight:bold;
 	font-style:italic;}
