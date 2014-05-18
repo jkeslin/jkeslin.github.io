@@ -7,6 +7,25 @@ body {
 	border-color: #8F8F8F;
 	border-width:4px;
 	}
+
+h1 {
+	font-family: "Droid Sans", sans-serif;
+	color: #495654;} 
+
+h3 {
+	text-align:center;
+	font-family: "Droid Sans", sans-serif;
+	color: #495654;} 
+
+p {
+	text-align:left;
+	font-family: "Droid Sans", sans-serif;
+	font-size:14px;}
+
+span {
+	color:#256EB8;
+	font-weight:bold;
+	font-style:italic;}
 	
 #content {
 	overflow: scroll;
@@ -48,26 +67,26 @@ ul {
 
 li {
 	font-family: "Droid Sans", sans-serif;
-	float:left;
-	text-align: left;}
+	float:left;}
 
 li.navtext {
 	font-family: "Droid Sans", sans-serif;
 	float:left;
 	text-align: center;}
 
-figure, figcaption {
-	display:block;
-	text-align:center;
-	font-size:10px;
-	font-family:"Droid Sans", sans-serif;}
+a:link { 
+	text-decoration: none;}
+a:hover {
+	background-color:transparent;}
 
-#pic {
+.pic {
 	display:block;
-	width:180px;
-	height:200px;
-	margin-left:auto;
-	margin-right:auto;}
+	width:50%;
+	height:50%;
+	margin: auto;
+	border-style:solid;
+	border-color:#8F8F8F;
+	border-width: 2px;}
 
 a.nav {
 	text-decoration: none;
@@ -83,11 +102,10 @@ a.nav {
 	border-color: #E7E7E7;
 	width: 209px;}
 
-a:hover {
+a:hover.nav {
 	background-color: #CAE6AF;}
 
-a:hover.footer {
-	background-color:transparent;}
+
 
 a.footer {
 	margin-left:auto;
@@ -99,15 +117,3 @@ a.footer {
 	font-weight:bold;
 	font-size:12px;}
 
-h1 {
-	font-family: "Droid Sans", sans-serif;
-	color: #495654;} 
-
-p {
-	font-family: "Droid Sans", sans-serif;
-	font-size:14px;}
-
-span {
-	color:#256EB8;
-	font-weight:bold;
-	font-style:italic;}
