@@ -1,0 +1,111 @@
+body {
+	display:block;
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border-style:solid;
+	border-color: #8F8F8F;
+	border-width:4px;
+	}
+	
+#content {
+	overflow: scroll;
+	height: 400px;}
+
+#nav {
+	background-image:url('../images/wavegrid.png');
+	padding: 10px;
+	margin: 10px;
+	text-align: center;}
+
+#feature {
+	background-image:url('../images/wavegrid.png');
+	padding: 10px;
+	margin-top: 0px;
+	margin-bottom:0px;
+	margin-right:10px;
+	margin-left:10px;
+	width: 920px;
+	float: left;
+	min-height:380px;
+	overflow:scroll;}
+
+#footer {
+	background-image:url('../images/wavegrid.png');
+	padding: 10px;
+	margin: 10px;
+	text-align: center;}
+
+h1.title {
+	text-align:right;
+	letter-spacing:12px;}
+
+ul {
+	list-style-type:none;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;}
+
+li {
+	font-family: "Droid Sans", sans-serif;
+	float:left;
+	text-align: left;}
+
+li.navtext {
+	font-family: "Droid Sans", sans-serif;
+	float:left;
+	text-align: center;}
+
+figure, figcaption {
+	display:block;
+	text-align:center;
+	font-size:10px;
+	font-family:"Droid Sans", sans-serif;}
+
+#pic {
+	display:block;
+	width:180px;
+	height:200px;
+	margin-left:auto;
+	margin-right:auto;}
+
+a.nav {
+	text-decoration: none;
+	color: #666;
+	font-weight:bold;
+	display:block;
+	padding: 10px;
+	background-color:#99C2FF;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #E7E7E7;
+	width: 207px;}
+
+a:hover {
+	background-color: #CAE6AF;}
+
+a:hover.footer {
+	background-color:transparent;}
+
+a.footer {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	font-family: "Droid Sans", sans-serif;
+	text-decoration: none;
+	color: #495654;
+	font-weight:bold;
+	font-size:12px;}
+
+h1 {
+	font-family: "Droid Sans", sans-serif;
+	color: #495654;} 
+
+p {
+	font-family: "Droid Sans", sans-serif;
+	font-size:14px;}
+
+span {
+	color:#256EB8;
+	font-weight:bold;
+	font-style:italic;}
