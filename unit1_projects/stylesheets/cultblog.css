@@ -56,6 +56,12 @@ li.navtext {
 	float:left;
 	text-align: center;}
 
+.jedi {
+	float:right;
+	margin-left: 10px;
+	width:30%;
+	height:30%:}
+
 a.nav {
 	text-decoration: none;
 	color: #000;
