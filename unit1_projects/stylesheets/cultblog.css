@@ -41,14 +41,10 @@ ul {
 	padding:0px;
 	overflow:hidden;}
 
-li {
-	font-family: "Droid Sans", sans-serif;
-	float:left;
-	text-align: left;}
-
 li.navtext {
 	font-family: "Droid Sans", sans-serif;
-	text-align: center;}
+	text-align: center;
+	float:left;}
 
 #jedi {
 	float:right;
