@@ -1,5 +1,4 @@
-body {
-	display:block;
+body { 
 	width: 960px;
 	margin: 0 auto;
 	margin-top: 10px;
@@ -15,8 +14,7 @@ body {
 #nav {
 	background-image:url('../images/wavegrid.png');
 	padding: 5px;
-	margin: 10px;
-	text-align: center;}
+	margin: 10px;}
 
 #feature {
 	background-image:url('../images/wavegrid.png');
@@ -26,9 +24,7 @@ body {
 	margin-right:10px;
 	margin-left:10px;
 	width: 920px;
-	float: left;
-	min-height:380px;
-	overflow:scroll;}
+	min-height:380px;}
 
 #footer {
 	background-image:url('../images/wavegrid.png');
@@ -53,7 +49,6 @@ li {
 
 li.navtext {
 	font-family: "Droid Sans", sans-serif;
-	float:left;
 	text-align: center;}
 
 .jedi {
