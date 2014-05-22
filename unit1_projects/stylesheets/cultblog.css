@@ -4,8 +4,7 @@ body {
 	margin-top: 10px;
 	border-style:solid;
 	border-color: #8F8F8F;
-	border-width:4px;
-	}
+	border-width:4px;}
 	
 #content {
 	overflow: scroll;
@@ -51,11 +50,9 @@ li.navtext {
 	font-family: "Droid Sans", sans-serif;
 	text-align: center;}
 
-.jedi {
+#jedi {
 	float:right;
-	margin-left: 10px;
-	width:30%;
-	height:30%:}
+	margin-left: 10px;}
 
 a.nav {
 	text-decoration: none;
