@@ -85,6 +85,10 @@ li {
 	text-align:center;
 	}
 
+li.sites {
+	padding-top:5px;
+}
+
 .feature li {
 	width:45%;
 }
