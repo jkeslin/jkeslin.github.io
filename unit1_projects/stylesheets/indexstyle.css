@@ -1,0 +1,103 @@
+
+body {
+	background-image:url('../images/wavegrid.png');
+	}
+
+#all {
+	width:100%;
+	max-width:1140px;
+	margin:auto;
+}
+
+#title {
+	width:90%;
+	border: 2px solid black;
+	margin:10px auto;
+	padding:10px;
+	}
+
+#navbar {
+	width:90%;
+	border: 2px solid black;
+	margin:10px auto;
+	padding:2px 10px;
+	text-align:left;
+	}
+
+#middle {
+	overflow:scroll;
+	width:90%;
+	border: 2px solid black;
+	margin:10px auto;
+	padding:0px 10px 0px 10px;
+	height:400px;
+	}
+
+#feature {
+	float:left;
+	width:70%;
+	border: 2px solid black;
+	padding:10px;
+	text-align:left;
+	}
+
+#sidebar {
+	float:left;
+	width:22%;
+	border: 2px solid black;
+	text-align:left;
+	padding:10px;
+	margin-left:10px;
+	}
+
+#footer {
+	clear:both;
+	width:90%;
+	border: 2px solid black;
+	margin:10px auto;
+	padding:2px 10px;
+	text-align:center;
+	}
+
+ul {
+	list-style-type:none;
+	padding:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	}
+
+li {
+	display:inline-block;
+	width:20%;
+	text-align:center;
+	}
+
+a {
+	font-family: "Droid Sans", sans-serif;
+	font-size:14px;
+	text-decoration: none;
+	color: #000;
+	font-weight:bold;
+	}
+
+h1, h3 {
+	font-family: "Droid Sans", sans-serif;
+	color: #495654;
+	} 
+
+#title h1 {
+	text-align:right;
+	letter-spacing:7px;
+	opacity:0.7;
+	}
+
+p {
+	font-family: "Droid Sans", sans-serif;
+	font-size:14px;
+	}
+
+#green {
+	opacity:0.5;
+	color:green;
+	letter-spacing:3px;
+}
