@@ -29,7 +29,7 @@ body {
 	border: 2px solid black;
 	margin:10px auto;
 	padding:0px 10px 0px 10px;
-	height:400px;
+	height:600px;
 	}
 
 .feature {
@@ -110,6 +110,20 @@ a {
 	font-size:14px;
 	text-decoration: none;
 	}
+
+a.answer:link {
+	font-family: "Droid Sans", sans-serif;
+	font-size:14px;
+	color:grey;
+	opacity:0;
+	}
+
+a.answer:hover{
+	font-family: "Droid Sans", sans-serif;
+	font-size:14px;
+	color:green;
+	opacity:1;
+}
 
 a:hover {
 	color:green;
