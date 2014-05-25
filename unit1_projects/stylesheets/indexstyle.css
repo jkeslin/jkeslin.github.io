@@ -56,7 +56,7 @@ body {
 	clear:both;
 	width:90%;
 	border: 2px solid black;
-	margin:10px auto;
+	margin: 2px auto;
 	padding:2px 10px;
 	text-align:center;
 	}
@@ -102,7 +102,15 @@ a {
 	text-decoration: none;
 	color: #495654;
 	}
-	
+
+.reslink {
+	text-decoration: none;
+	color: #495654;
+	font-family: "Droid Sans", sans-serif;
+	font-size:14px;
+	text-decoration: none;
+	}
+
 a:hover {
 	color:green;
 	}
