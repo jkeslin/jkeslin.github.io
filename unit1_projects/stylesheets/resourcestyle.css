@@ -36,14 +36,12 @@ body {
 	float:left;
 	width:70%;
 	padding:10px 0px;
-	text-align:left;
 	}
 
 .sidebar {
 	float:left;
 	width:26%;
 	background-color: rgba(151, 221, 161, 0.2);
-	text-align:center;
 	padding:10px 5px;
 	margin: 20px 0px 10px 10px;
 	border: 1px solid #7B7B7B;
@@ -87,29 +85,45 @@ li {
 	text-align:center;
 	}
 
+.feature li {
+	width:45%;
+}
+
 .navbar a {
 	font-family: "Dosis", sans-serif;
 	font-size:16px;
-	font-weight:200;
 	letter-spacing:3px;
 	text-decoration: none;
 	color: #000;
 	font-weight:100;
 	}
 
-a {
+.reslink {
 	text-decoration: none;
 	color: #495654;
+	font-family: "Droid Sans", sans-serif;
+	font-size:14px;
+	text-decoration: none;
 	}
 
-.navbar a:hover {
+a:hover {
 	font-weight:400;
-}
+	color:green;
+	}
+
+.sidebar {
+	text-align:center;
+	}
+
+.feature {
+	text-align:left;
+	}
+
+
 
 h1, h3 {
 	font-family: "Droid Sans", sans-serif;
 	color: #495654;
-	text-align:center;
 	} 
 
 .title h1 {

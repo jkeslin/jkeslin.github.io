@@ -102,10 +102,14 @@ a {
 	text-decoration: none;
 	color: #495654;
 	}
+	
+a:hover {
+	color:green;
+	}
 
 .navbar a:hover {
 	font-weight:400;
-}
+	}
 
 h1, h3 {
 	font-family: "Droid Sans", sans-serif;
