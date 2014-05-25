@@ -47,6 +47,7 @@ body {
 	padding:10px 5px;
 	margin: 20px 0px 10px 10px;
 	border-radius: 10px;
+	min-height:400px;
 	}
 
 .footer {
@@ -60,6 +61,12 @@ body {
 
 .pic {
 	width:80%;
+	margin-left:10%;
+	margin-right:10%;
+}
+
+.profile {
+	border-radius:100%;
 }
 
 ul {
@@ -98,6 +105,7 @@ a {
 h1, h3 {
 	font-family: "Droid Sans", sans-serif;
 	color: #495654;
+	text-align:center;
 	} 
 
 .title h1 {
