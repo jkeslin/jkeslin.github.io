@@ -42,10 +42,11 @@ body {
 .sidebar {
 	float:left;
 	width:26%;
-	background-color: rgba(151, 221, 161, 0.3);
+	background-color: rgba(151, 221, 161, 0.2);
 	text-align:center;
 	padding:10px 5px;
 	margin: 20px 0px 10px 10px;
+	border: 1px solid #7B7B7B;
 	border-radius: 10px;
 	min-height:400px;
 	}
@@ -60,13 +61,16 @@ body {
 	}
 
 .pic {
-	width:80%;
-	margin-left:10%;
-	margin-right:10%;
+	width:60%;
+	margin-left:20%;
+	margin-right:20%;
 }
 
 .profile {
 	border-radius:100%;
+	border:1px solid black;
+	width:50%;
+	margin: 0px 25%;
 }
 
 ul {
