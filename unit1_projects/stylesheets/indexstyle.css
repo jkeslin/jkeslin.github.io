@@ -49,6 +49,7 @@ body {
 	border: 1px solid #7B7B7B;
 	border-radius: 10px;
 	min-height:400px;
+	overflow:auto;
 	}
 
 .footer {
@@ -71,6 +72,10 @@ body {
 	border:1px solid black;
 	width:50%;
 	margin: 0px 25%;
+}
+
+.twitter-timeline {
+
 }
 
 ul {
