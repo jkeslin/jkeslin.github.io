@@ -65,6 +65,26 @@ body {
 	width:60%;
 	margin-left:20%;
 	margin-right:20%;
+	padding:5px 0px 5px 0px;
+}
+
+.picsm {
+	width:50%;
+	margin-left:25%;
+	margin-right:25%;
+	padding:5px 0px 5px 0px;
+}
+
+.picright {
+	float:right;
+	width:50%;
+	padding:5px;
+}
+
+.picrightsm {
+	float:right;
+	width:35%;
+	padding:5px;
 }
 
 .profile {
