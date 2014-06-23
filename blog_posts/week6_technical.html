@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+
+<meta charset="UTF-8">
+<title>Tech Blog | Week 6</title>
+<link href='http://fonts.googleapis.com/css?family=Dosis:200,400,600|Droid+Sans:400,700|Poiret+One|Quicksand:300,400|Wire+One|Josefin+Sans:100,400,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="../unit1_projects/stylesheets/indexstyle.css" />
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+					</script>
+</head>
+
+<body>
+	<div class="all">
+		<div class="title">
+		<h1><span class="green">return</span> jeffKeslin</h1>
+		</div>
+	
+		<div class="navbar">
+			<ul>
+				<li><a href="http://jkeslin.github.io/index.html">Home</a></li>
+				<li><a href="http://jkeslin.github.io/unit1_projects/resources.html">Resources</a></li>
+				<li><a href="http://jkeslin.github.io/unit1_projects/my_wireframe.html">Wireframes</a></li>
+				<li><a target="_blank" href="https://github.com/jkeslin">GitHub</a></li>
+			</ul>
+			
+
+			
+		</div>
+		<div class="middle">
+			<div class="feature">
+<!-- Start tech article: Week 6 -->		
+				<h1>variables and scope</h1>
+			<hr>
+			<p>For your programming convenience, Ruby has 4 distinct types of variables: <em>local, global, instance, and class.</em>  Each of these types has a different scope which defines where in a program a variable can be accessible.  Let's start with the variable with the largest scope (global) and work our way down to the variables with the least accessibility.</p>
+				
+			<p><strong>Global variables</strong> can be accessed from anywhere in the program.  To declare a global variable, it must begin with the dollar sign ($).  For example, the variable <em>$tax_rate</em>, is global and can be accessed anywhere in a program.  Using global variables is generally discouraged except when totally necessary because it can make tracking bugs within your code difficult.</p>
+			
+			<p><strong>Class variables</strong> cannot be accessed anywhere, but can be accessed anywhere within a given class. The difference between a Class variable and an instance variable is that a Class variable is shared amongst all instances of a class. Therefore, when it is changed for one instance, it is changed for all of them. They are declared by using @@, for example: <em>@@color = "red"</em>.</p>
+
+		
+			<p><strong>Instance variables</strong> are also used within a class, but this time, the value of the variable can be unique to that particular object or instance of that class.  This means that changes made to this variable, only affect the particular object being manipulated.  They are declared using just a single <em>@</em>.  </p>
+
+			<p><strong>Local variables</strong> have the smallest scope and can only be called within the method or loop with which they are declared.  Let's look at an example where we create objects using a class called Vehicle. We'll use all four of types of variables so you can see how they work:</p>
+
+			<img class="pic" src="../unit1_projects/images/vehicle.png" />
+
+			<p>You'll notice we're allowed to access the global variable <em>$tax_rate</em>, despite that it is declared outside the Vehicle class.  Also, the class variable, <em>@@use</em>, will be the same for any instance of Vehicle class, and the local variable <em>cost</em>, cannot be accessed outside of the <em>cost method</em>.</p>
+
+			<p>And just for fun, here's a table of pre-defined global variables that you can use to get information about the Ruby environment (courtesy of techtopia.com):</p>
+
+			<img class="pic" src="../unit1_projects/images/pre_def_g_vars.png" />
+			
+			<p>To learn more about variables and scope, check out the <a href="http://jkeslin.github.io/unit1_projects/resources.html">Resources</a> page for more Ruby info or tools.</p>
+			<p><strong>And happy coding!</strong></p>
+			</br>
+		
+<!-- End tech article: Week 6 -->
+			</div>
+<!-- close feature div, start sidebar -->
+
+			<div class="sidebar">
+
+				<h3>Dev Bootcamp</h3>
+				<p>Bobolinks 2014</p>
+				<p>Chicago, IL</p>
+				<img class="profile" src="../unit1_projects/images/profilepic.png" />
+				</br>
+				<a class="twitter-timeline" href="https://twitter.com/jgatzbee/lists/tech" data-widget-id="470570367329656832">tech tweets</a>
+					
+			</div>
+		</div>
+<!-- start footer -->
+
+		<div class="footer">
+			
+			<ul>
+				<li class="sites"><a target="_blank" class="reslink" href="https://plus.google.com/communities/112496352416987127987">Google+</a></li>
+				<li class="sites"><a target="_blank" class="reslink" href="http://apply.devbootcamp.com/s/410132/">DBC</a></li>
+				<li class="sites"><a target="_blank" class="reslink" href="https://socrates.devbootcamp.com/cohorts/75">Socrates</a></li>
+			</ul>
+			<p>&copy2014</p>
+		</div>
+	</div>
+
+</body>
+</html>

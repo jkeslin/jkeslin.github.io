@@ -28,6 +28,46 @@
 		</div>
 		<div class="middle">
 			<div class="feature">
+<!-- Start tech article: Week 6 -->		
+				<h1><a href="blog_posts/week6_technical.html">variables and scope</a></h1>
+			<hr>
+			<p>For your programming convenience, Ruby has 4 distinct types of variables: <em>local, global, instance, and class.</em>  Each of these types has a different scope which defines where in a program a variable can be accessible.  Let's start with the variable with the largest scope (global) and work our way down to the variables with the least accessibility.</p>
+				
+			<p><strong>Global variables</strong> can be accessed from anywhere in the program.  To declare a global variable, it must begin with the dollar sign ($).  For example, the variable <em>$tax_rate</em>, is global and can be accessed anywhere in a program.  Using global variables is generally discouraged except when totally necessary because it can make tracking bugs within your code difficult.</p>
+			
+			<p><strong>Class variables</strong> cannot be accessed anywhere, but can be accessed anywhere within a given class. The difference between a Class variable and an instance variable is that a Class variable is shared amongst all instances of a class. Therefore, when it is changed for one instance, it is changed for all of them. They are declared by using @@, for example: <em>@@color = "red"</em>.</p>
+
+		
+			<p><strong>Instance variables</strong> are also used within a class, but this time, the value of the variable can be unique to that particular object or instance of that class.  This means that changes made to this variable, only affect the particular object being manipulated.  They are declared using just a single <em>@</em>.  </p>
+
+			<p><strong>Local variables</strong> have the smallest scope and can only be called within the method or loop with which they are declared.  Let's look at an example where we create objects using a class called Vehicle. We'll use all four of types of variables so you can see how they work:</p>
+
+			<img class="pic" src="unit1_projects/images/vehicle.png" />
+
+			<p>You'll notice we're allowed to access the global variable <em>$tax_rate</em>, despite that it is declared outside the Vehicle class.  Also, the class variable, <em>@@use</em>, will be the same for any instance of Vehicle class, and the local variable <em>cost</em>, cannot be accessed outside of the <em>cost method</em>.</p>
+
+			<p>And just for fun, here's a table of pre-defined global variables that you can use to get information about the Ruby environment (courtesy of techtopia.com):</p>
+
+			<img class="pic" src="unit1_projects/images/pre_def_g_vars.png" />
+			
+			<p>To learn more about variables and scope, check out the <a href="http://jkeslin.github.io/unit1_projects/resources.html">Resources</a> page for more Ruby info or tools.</p>
+			<p><strong>And happy coding!</strong></p>
+			</br>
+			<hr>
+<!-- End tech article: Week 6 -->				
+<!-- Start cultural article: Week 6 -->		
+				<h1><a href="blog_posts/week6_cultural_blog.html">stereotype threat</a></h1>
+			<hr>
+			
+			<p>Stereotype threat is when a person is a risk of confirming a negative stereotype about one's group.  The term was first used in the research by Steele and Aronson in their 1995 paper detailing experiments where Black college freshman performed more poorly on standardized tests than White students if their race was emphasized before or during the test.</p>
+				
+			<p>As a White male, I have to accept that I've lived in a world where it's easy for me to live a life of privilege.  So I will not attempt to speak to my own experiences with stereotype threat, despite that everyone has been subject to other people's biases one way or another.  I can however speak about how I've seen my high school students in Chicago become subject to stereotype threat.</p>
+
+			<p>For six years I've taught math at schools in urban areas with a disproportionate amount of youth who have lived in poverty, or in neighborhoods mostly known for their criminal or gang related activity.  Many of them walk into my classroom with the idea that they were somehow designed to underperform, and that it's not something they can control.  And that this idea of going to college that their teachers keep talking about, is just something for someone else.  I've seen a lot of kids ignore this threat and accomplish great things, and I've seen kids who couldn't overcome what they thought was a genetic or social disposition to not achieve and drop out of school.  It's heartbreaking to see, and is one of the things that makes teaching such a tough job to make sustainable.</p>
+			
+			<p>As far as how this might apply to anyone, or how it may present itself in the tech world:  I think we can all be better off if we just make an effort to understand our own biases and truly get to know someone before we make decisions about his/her character. And really know when you don't really know someone, or when you might not really know yourself.</p> 
+			<hr>
+<!-- End cultural article: Week 6 -->
 <!-- Start tech article: Week 5 -->		
 				<h1><a href="blog_posts/week5_technical.html">classes and inheritance</a></h1>
 			<hr>
