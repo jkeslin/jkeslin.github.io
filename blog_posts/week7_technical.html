@@ -2,7 +2,7 @@
 <head>
 
 <meta charset="UTF-8">
-<title>Tech Blog | Week 6</title>
+<title>Tech Blog | Week 7</title>
 <link href='http://fonts.googleapis.com/css?family=Dosis:200,400,600|Droid+Sans:400,700|Poiret+One|Quicksand:300,400|Wire+One|Josefin+Sans:100,400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="../unit1_projects/stylesheets/indexstyle.css" />
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
@@ -28,33 +28,25 @@
 		</div>
 		<div class="middle">
 			<div class="feature">
-<!-- Start tech article: Week 6 -->		
-				<h1>variables and scope</h1>
+<!-- Start tech article: Week 7 -->		
+				<h1>to SQL or not to SQL</h1>
 			<hr>
-			<p>For your programming convenience, Ruby has 4 distinct types of variables: <em>local, global, instance, and class.</em>  Each of these types has a different scope which defines where in a program a variable can be accessible.  Let's start with the variable with the largest scope (global) and work our way down to the variables with the least accessibility.</p>
+			<img class="picright" src="../unit1_projects/images/sql_balance.png" />
+			<p>If you search the internet to find the answer to the question of whether or not to use SQL or NoSQL databases, you'll find that there are some very strong opinions on both sides.  There are clearly some advantages to using either one, but let's start with some historical context.</p>
 				
-			<p><strong>Global variables</strong> can be accessed from anywhere in the program.  To declare a global variable, it must begin with the dollar sign ($).  For example, the variable <em>$tax_rate</em>, is global and can be accessed anywhere in a program.  Using global variables is generally discouraged except when totally necessary because it can make tracking bugs within your code difficult.</p>
+			<p>Relational databases first started appearing in the 1970's and early versions of the SQL language were developed around that time.  Since then, it's been the gold standard for creating and accessing databases.  The push for a new system of working with databases actually comes from issues that Google and Amazon had when dealing with huge amounts of data that were unheard of before in the web landscape.  Because of this issue of scale, they began working on creating systems for non-relational databases that they believed would be faster and easier to access.</p>
 			
-			<p><strong>Class variables</strong> cannot be accessed anywhere, but can be accessed anywhere within a given class. The difference between a Class variable and an instance variable is that a Class variable is shared amongst all instances of a class. Therefore, when it is changed for one instance, it is changed for all of them. They are declared by using @@, for example: <em>@@color = "red"</em>.</p>
+			<p>Point of clarification: When people argue SQL or NoSQL, what they're really saying is "relational vs. non-relational."  Relational databases include: Oracle, MySQL, and SQL Server, among others.  And non-relational databases include MongoDB, CouchDB, Big Table (created by Google), and others.</p>
 
 		
-			<p><strong>Instance variables</strong> are also used within a class, but this time, the value of the variable can be unique to that particular object or instance of that class.  This means that changes made to this variable, only affect the particular object being manipulated.  They are declared using just a single <em>@</em>.  </p>
+			<p>So what are the arguments for both sides?  Advocates for NoSQL claim that JOINS in a relational database is too slow for a large system, and that it doesn't map well with certain data types or heirarcial data. Advocates for SQL would claim that unless you're as big as Google or Twitter, relational databases have no speed issues, and that today's tools like, Oracle, can handle just about any data type.</p>
 
-			<p><strong>Local variables</strong> have the smallest scope and can only be called within the method or loop with which they are declared.  Let's look at an example where we create objects using a class called Vehicle. We'll use all four of types of variables so you can see how they work:</p>
+			<p>The moral of the story: If you search hard enough you'll find that level-headed programmers actually believe that both SQL and NoSQL databases are useful and wonderful in their own right. What matters is the project you're working on and what makes more sense for that particular project.  A skilled programmer will be comfortable with either, and have the wisdom to know which system is appropriate for their project.</p>
 
-			<img class="pic" src="../unit1_projects/images/vehicle.png" />
-
-			<p>You'll notice we're allowed to access the global variable <em>$tax_rate</em>, despite that it is declared outside the Vehicle class.  Also, the class variable, <em>@@use</em>, will be the same for any instance of Vehicle class, and the local variable <em>cost</em>, cannot be accessed outside of the <em>cost method</em>.</p>
-
-			<p>And just for fun, here's a table of pre-defined global variables that you can use to get information about the Ruby environment (courtesy of techtopia.com):</p>
-
-			<img class="pic" src="../unit1_projects/images/pre_def_g_vars.png" />
-			
-			<p>To learn more about variables and scope, check out the <a href="http://jkeslin.github.io/unit1_projects/resources.html">Resources</a> page for more Ruby info or tools.</p>
-			<p><strong>And happy coding!</strong></p>
+			<p><strong>Oh, and happy coding!</strong></p>
 			</br>
 		
-<!-- End tech article: Week 6 -->
+<!-- End tech article: Week 7 -->
 			</div>
 <!-- close feature div, start sidebar -->
 
