@@ -16,7 +16,7 @@
 .leftside {
 	display:inline-block;
 	width:46%;
-	background-color: rgba(151, 221, 161, 0.6);
+	background-color: rgba(151, 221, 161, 0.4);
 	text-align:center;
 	padding:40px 2%;
 	margin: 0px 0px 40px 1%;
@@ -28,7 +28,7 @@
 .rightside {
 	display:inline-block;
 	width:44%;
-	background-color: rgba(151, 221, 161, 0.6);
+	background-color: rgba(151, 221, 161, 0.4);
 	text-align:center;
 	padding:40px 2%;
 	margin: 0px 0px 40px 0px;
