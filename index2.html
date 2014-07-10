@@ -3,11 +3,13 @@
 
 <meta charset="UTF-8">
 <link rel="shortcut icon" href="unit1_projects/images/pi_symbol.png">
-<title>Jeff Dev | Home</title>
+<title>DBC Blog | Home</title>
 <link href='http://fonts.googleapis.com/css?family=Dosis:200,400,600|Droid+Sans:400,700|Poiret+One|Quicksand:300,400|Wire+One|Josefin+Sans:100,400,700' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="unit1_projects/stylesheets/indexstyle.css" />
+
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="unit1_projects/stylesheets/indexstyle2.css" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script type="text/javascript" src="blog_posts/blog.js"></script>
+<script type="text/javascript" src="blog_posts/blog2.js"></script>
 </head>
 
 <body>
@@ -15,28 +17,55 @@
 		<div class="title">
 		<h1><span id="green">return</span> <span id="myname">jeffKeslin</span></h1>
 		</div>
-	
+	<!--
 		<div class="navbar">
 			<ul>
 				<li><a href="http://jkeslin.github.io/index.html">Home</a></li>
 				<li><a href="http://jkeslin.github.io/unit1_projects/resources.html">Resources</a></li>
 				<li><a href="http://jkeslin.github.io/blog_posts/unit3_cheatsheet.html">Loops</a></li>
 				<li><a target="_blank" href="https://github.com/jkeslin">GitHub</a></li>
-			</ul>
-			
+			</ul>-->
+<div class="navbar"><!--begin bootstrap nav-->
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Project name</a>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="dropdown-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div><!--end bootstrap nav-->			
 
 			
 		</div>
 		<div class="middle">
-			<div class="dashboard">
-				<!--<img class="profile" src="unit1_projects/images/profilepic.png" />-->
-				<h1>Web Developer</h1>
-				<p>Dev Bootcamp</p>
-				<p>Chicago, IL</p>
-			</div>
-			<a href="#"><div class="sub-dashboard">
-				<h1>B l o g  P o s t s</h1>
-			</div></a>
+				<div class="greywash jumbotron">
+        			<h1>Hello, world!</h1>
+        			<p class="jumbotext">This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
+        			<p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more »</a></p>
+      			</div>
 			<div class="feature">
 <!-- Start tech article: Week 8 -->		
 				<h1 class="article-name"><a>what is rails?</a></h1>
@@ -364,6 +393,18 @@
 		</article>
 			</div> 
 <!-- close feature div, start sidebar -->
+<!--
+			<div class="sidebar">
+				<h3>Dev Bootcamp</h3>
+				<p>Bobolinks 2014</p>
+				<p>Chicago, IL</p>
+				<img class="profile" src="unit1_projects/images/profilepic.png" />
+				</br>
+				<a class="twitter-timeline" href="https://twitter.com/jgatzbee/lists/tech" data-widget-id="470570367329656832">tech tweets</a>
+					
+
+			</div>
+		-->
 		</div>
 <!-- start footer -->
 
@@ -380,3 +421,5 @@
 
 </body>
 </html>
+
+

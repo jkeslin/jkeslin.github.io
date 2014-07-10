@@ -1,43 +1,22 @@
 
 body {
-	background-image:url('../images/crossword.png');
+background-image:url('../images/crossword.png');
 	}
+
+.greywash {
+	background-image:url('../images/grey_wash_wall.png');
+	margin: 2%;
+	color:white;
+}
 
 .all {
 	width:100%;
 	max-width:1140px;
 	margin:auto;
-	}
-
-.dashboard {
-	width:95%;
-	min-height:300px;
-	border: 1px solid black;
-	margin: 30px auto;
-	padding: 0px 10px;
-	background-image:url('../images/chicago_skyline.gif');
-	background-color: rgba(151, 221, 161, 0.5);
-	
 }
 
-.dashboard h1 {
-	text-align:right;
-	color:white;
-}
-
-.dashboard p {
-	text-align:right;
-	color:white;
-	font-weight:bold;
-}
-
-.sub-dashboard {
-	width:70%;
-	min-height:80px;
-	border: 1px solid black;
-	margin: 20px auto 0px auto;
-	background-color: rgba(151, 221, 161, 0.5);
-	letter-spacing: 7px;
+.center-nav {
+	text-align: center;
 }
 
 .title {
@@ -49,9 +28,7 @@ body {
 
 .navbar {
 	width:90%;
-	border: 2px solid black;
-	margin:10px auto;
-	padding:2px 10px;
+	margin:auto;
 	}
 
 .middle {
@@ -60,16 +37,16 @@ body {
 	border: 2px solid black;
 	margin:10px auto;
 	padding:0px 10px 0px 10px;
-	height:475px;
+	height:600px;
 	}
 
 .feature {
-	margin:auto;
+	float:left;
 	width:95%;
 	padding:10px 0px;
 	text-align:left;
 	}
-
+/*
 .sidebar {
 	float:left;
 	width:26%;
@@ -82,7 +59,7 @@ body {
 	min-height:400px;
 	overflow:auto;
 	}
-
+*/
 .footer {
 	clear:both;
 	width:90%;
@@ -129,10 +106,8 @@ body {
 .profile {
 	border-radius:100%;
 	border:1px solid black;
-	width:100px;
-	position:relative;
-	top:5px;
-	right:5px;
+	width:50%;
+	margin: 0px 25%;
 }
 
 ul {
@@ -154,12 +129,13 @@ li.sites {
 }
 
 .navbar a {
-	font-family: "Droid Sans", sans-serif;
+	font-family: "Dosis", sans-serif;
 	font-size:16px;
-	font-weight:700;
+	font-weight:200;
 	letter-spacing:3px;
 	text-decoration: none;
-	color: grey;
+	color: #000;
+	font-weight:100;
 	}
 
 a {
@@ -190,7 +166,7 @@ a.answer:hover{
 }
 
 a:hover {
-	color: rgba(151, 221, 161, 1);
+	color:green;
 	}
 
 .navbar a:hover {
@@ -216,9 +192,12 @@ p {
 	color:#7B7B7B;
 	}
 
+.jumbotext {
+	color: white;
+}
 
 #green {
-	opacity:0.7;
+	opacity:0.8;
 	color:green;
 	letter-spacing:3px;
 }
