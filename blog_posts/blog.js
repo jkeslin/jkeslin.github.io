@@ -3,11 +3,11 @@ $(document).ready(function(){
 //animate name "jeffkeslin" when page opens (appear slowly)
 $('#myname').hide().fadeIn(3500);
 
-//initially hid articles
+//initially hide articles
 $('.feature').hide();
 $('article').hide();
 
-//expand article titles from below green blog posts div
+//expand article titles from below green blog posts div and hide dashboard
 $('.sub-dashboard').on('click', function(){
 	if($('.feature').is(':hidden')){
 		$('.feature').show("slow");
@@ -17,8 +17,6 @@ $('.sub-dashboard').on('click', function(){
 		$('.dashboard').show("slow");
 	}
 });
-
-
 
 //expand and close articles on click
 $('.article-name').on('click', function(){
