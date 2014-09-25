@@ -226,3 +226,11 @@ p {
 .footer-image {
 	width:24px;
 }
+
+#resume-png {
+	position: relative;
+	top: 50px;
+	left: 10%;
+	width: 80%;
+	border: 1px solid black;
+}
