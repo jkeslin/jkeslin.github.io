@@ -94,12 +94,12 @@ li.sites {
 }
 
 .navbar a {
-	font-family: "Dosis", sans-serif;
+	font-family: "Droid Sans", sans-serif;
 	font-size:16px;
+	font-weight:700;
 	letter-spacing:3px;
 	text-decoration: none;
-	color: #000;
-	font-weight:100;
+	color: grey;
 	}
 
 .reslink {
@@ -114,6 +114,10 @@ a:hover {
 	font-weight:400;
 	color:green;
 	}
+
+.navbar a:hover {
+	font-weight:400;
+}
 
 .sidebar {
 	text-align:center;
@@ -141,6 +145,15 @@ p {
 	color:#7B7B7B;
 	}
 
+#green {
+	opacity:0.7;
+	color:green;
+	letter-spacing:3px;
+}
+
+.footer-image {
+	width:24px;
+}
 
 .green {
 	opacity:0.5;
