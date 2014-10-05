@@ -45,11 +45,11 @@
 }
 
 .mt {
-	margin-top: 80px;
+	margin-top: 20px;
 }
 
 .mb {
-	margin-bottom: 80px;
+	margin-bottom: 20px;
 }
 
 /* ==========================================================================
@@ -227,4 +227,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #headerwrap h1 {
   color: #1abc9c;
+}
+
+.fa.fa-star {
+  color: #1abc9c;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
 }
