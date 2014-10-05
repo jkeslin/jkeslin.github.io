@@ -1,0 +1,18 @@
+.icon {
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	fill: currentColor;
+}
+.icon-tie {
+	/*fill: #000000;*/
+}
+.icon-lamp {
+	/*fill: #000000;*/
+}
+.icon-lightning {
+	/*fill: #000000;*/
+}
+.icon-stats {
+	/*fill: #000000;*/
+}

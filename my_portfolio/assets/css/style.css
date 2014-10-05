@@ -103,7 +103,6 @@ h1, h2, h3, h4, h5, h6 {
 	background: url(../img/tree_resized.jpg) no-repeat center top;
 	margin-top: -70px;
 	padding-top: 100px;
-	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	min-height: 650px;
@@ -219,10 +218,26 @@ h1, h2, h3, h4, h5, h6 {
 /* Gallery */
 .gallery {
 	margin-top: 30px;
+  height: 200%;
+}
+
+.gallery img {
+  margin: auto;
+  box-shadow: 0px 0px 10px grey;
+}
+
+.gallery img {
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   -ms-filter: grayscale(100%);
+   filter: grayscale(100%);
 }
 
 .gallery img:hover {
-	opacity: 0.4;
+   -webkit-filter: none;
+   -moz-filter: none;
+   -ms-filter: none;
+   filter: none;
 }
 
 #headerwrap h1 {
