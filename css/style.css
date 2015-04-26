@@ -15,7 +15,7 @@
 
 	body {
 		background: white;
-		overflow: hidden;
+		overflow: scroll;
 	}
 
 		body.loading * {
